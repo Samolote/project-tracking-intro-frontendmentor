@@ -1,0 +1,48 @@
+:root {
+	--red: hsl(0, 100%, 68%);
+
+	--very-dark-blue: hsl(230, 29%, 20%);
+	--dark-grayish-blue: hsl(230, 11%, 40%);
+	--grayish-blue: hsl(231, 7%, 65%);
+	--light-grayish-blue: hsl(207, 33%, 95%);
+
+	--white: hsl(0, 0%, 100%);
+
+	--default-transition: 0.3s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
+	color: var(--secondary-font-color);
+}
+
+.heading {
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.header,
+.main,
+.footer {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.footer {
+	margin-top: 5rem;
+}
+
+.attribution {
+	font-size: 0.733em;
+	text-align: center;
+}
+
+.attribution__anchor {
+	color: hsl(228, 45%, 44%);
+}
