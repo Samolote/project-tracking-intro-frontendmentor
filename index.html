@@ -10,48 +10,54 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="./assets/images/logo.svg" alt="Reversed Y letter on black background">
-    <button>
-      <span></span>
+  <header class="header">
+    <img class="header__brand" src="./assets/images/logo.svg" alt="Reversed Y letter on black background">
+    <button class="hamburger">
+      <span class="hamburger__box">
+        <span class="hamburger__inner"></span>
+      </span>
     </button>
-    <ul>
-      <li>
-        <span>Product</span>
-      </li>
-      <li>
-        <span>Features</span>
-      </li>
-      <li>
-        <span>Pricing</span>
-      </li>
-      <li>
-        <span>Login</span>
-      </li>
-    </ul>
+    <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <span class="nav__link-placeholder">Product</span>
+        </li>
+        <li class="nav__item">
+          <span class="nav__link-placeholder">Features</span>
+        </li>
+        <li class="nav__item">
+          <span class="nav__link-placeholder">Pricing</span>
+        </li>
+        <li class="nav__item">
+          <span class="nav__link-placeholder">Login</span>
+        </li>
+      </ul>
+    </nav>
   </header>
-  <main>
-    <div>
-      <img src="./assets/images/illustration-devices.svg" alt="">
-      <section>
-        <p>
-          <span>
+  <main class="main">
+    <div class="hero">
+      <img class="hero__image" src="./assets/images/illustration-devices.svg" alt="">
+      <section class="hero__text-content">
+        <p class="hero__pre">
+          <span class="text--highlight">
             New
           </span>
           Monograph Dashboard
         </p>
-        <h1>
+        <h1 class="hero__heading">
           Powerful insights into your team
         </h1>
-        <p>
+        <p class="hero__text">
           Project planning and time tracking for agile teams
         </p>
-        <button>
-          Schedule a demo
-        </button>
-        <span>
-          to see a live preview
-        </span>
+        <div class="hero__cta">
+          <button class="hero__button">
+            Schedule a demo
+          </button>
+          <span class="hero__cta-text">
+            to see a live preview
+          </span>
+        </div>
       </section>
     </div>
   </main>
