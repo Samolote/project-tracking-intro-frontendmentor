@@ -363,13 +363,13 @@ html {
 
 @media (min-width: 1024px) {
 	.header {
-		padding: 2.5rem 9rem;
+		padding: 2.5rem 11vw;
 	}
 
 	.hero {
 		flex-direction: row;
 		justify-content: space-between;
-		padding: 13.5rem 9rem 8.5rem;
+		padding: 13.5rem 11vw 8.5rem;
 	}
 
 	.hero__image {
@@ -382,7 +382,7 @@ html {
 	}
 
 	.hero__text-content {
-		flex-basis: 40%;
+		flex-basis: 50%;
 		flex-shrink: 0;
 		margin: 0;
 	}
@@ -395,5 +395,14 @@ html {
 		margin: 0 0 4rem;
 		width: 280px;
 		line-height: 1.5;
+	}
+}
+
+@media (min-width: 1440px) {
+	.header {
+		padding: 2.5rem 9rem;
+	}
+	.hero {
+		padding: 13.5rem 9rem 8.5rem;
 	}
 }
